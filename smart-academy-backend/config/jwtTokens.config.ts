@@ -1,0 +1,8 @@
+import * as process from 'process';
+
+export default () => ({
+  ACCESS_TOKEN_KEY: process.env.JWT_ACCESS_TOKEN_SECRET,
+  ACCESS_TOKEN_EXPIRE_TIME: process.env.JWT_ACCESS_TOKEN_EXPIRE_TIME,
+  REFRESH_TOKEN_KEY: process.env.JWT_REFRESH_TOKEN_SECRET,
+  REFRESH_TOKEN_EXPIRE_TIME: process.env.JWT_REFRESH_TOKEN_EXPIRE_TIME,
+});
