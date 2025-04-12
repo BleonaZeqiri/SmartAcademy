@@ -1,0 +1,22 @@
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.form-control {
+  border: 2px solid #f6f6f6;
+  background-color: #fff;
+  padding: 0.8rem;
+}
+.form-control {
+  padding-left: 33px;
+}
+.login_submit {
+  background-color: #375372;
+  border: none;
+  padding: 0.8rem;
+  color: #fff;
+}
+.login_submit:hover {
+  background-color: #687f9a;
+}

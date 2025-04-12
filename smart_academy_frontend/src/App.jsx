@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import LoginForm from "./auth/LoginForm";
 import RegisterForm from "./auth/RegisterForm";
+import ForgotPassword from "./auth/ForgotPassword";
 import ProtectedRoute from "./ProtectedRoute/ProtectedRoute";
 import { useAuth } from "./context/AuthContext";
 
@@ -14,6 +15,8 @@ function App() {
       <Routes>
         <Route path="/login" element={<LoginForm />} />
         <Route path="/register" element={<RegisterForm />} />
+        <Route path="/ForgotPassword" element={<ForgotPassword />} />
+
         <Route
           path="/"
           element={
