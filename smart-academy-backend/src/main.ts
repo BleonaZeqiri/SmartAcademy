@@ -9,6 +9,6 @@ async function bootstrap() {
   app.use("/uploads", express.static(join(__dirname, "..", "..", "uploads")));
   app.useGlobalPipes(new ValidationPipe());
   app.enableCors();
-  await app.listen(3007);
+  await app.listen(3008);
 }
 bootstrap();

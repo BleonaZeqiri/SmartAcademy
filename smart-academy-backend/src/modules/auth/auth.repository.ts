@@ -119,7 +119,6 @@ export class AuthRepository {
         location: true,
         created_at: true,
         updated_at: true,
-        _count: true,
       },
     });
   }
